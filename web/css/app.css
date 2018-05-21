@@ -1,0 +1,30 @@
+@import url('./footer.css');
+
+@media screen and (max-width: 768px) {
+	body {
+		width: 100%;
+		margin: 20px;
+	}
+}
+@media screen and (min-width: 1000px) {
+	body {
+		width: 768px;
+		margin: 20px auto;
+	}
+}
+.clear {
+	clear: both;
+}
+body {
+	font-family: 仿宋,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
+}
+.file{
+	padding: 1px 15px;
+	background-color: #f8f8f8;
+	margin: 15px auto;
+	font-size: 1em;
+}
+h2{
+	font-family: 宋体;
+	font-size: 1.2em;
+}

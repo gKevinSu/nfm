@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+{% block title %}
+	政策导向 | 中金岭南科技有限公司
+{% endblock %}
+
+{% block body %}
+        {% for file in catalog %}
+           <div class="file">
+                <a href="{{file.link}}"><h2>{{file.name}}</h2></a>
+                <p>发布时间：{{file.date}}</p>
+                <p>关键词：{{file.keywords}}</p>
+                <p>消息来源：{{file.from}}</p>
+                <p>内容摘要：</p>
+                <p style="font-size:0.9em;">{{file.context|nl2br}}</p>
+            </div>
+        {% endfor %}
+{% endblock %}

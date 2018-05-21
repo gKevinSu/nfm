@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link href="/css/app.css" type="text/css" rel="stylesheet" />
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
+    <section id="navblock">
+            <img src="/images/logo.png" class="logo" style="width:130px;">
+    </section>
+    <div class="clear"></div>
+
+    {% block body %}{% endblock %}
+    {% block footer %}
+            <hr size="1">
+            <div class="copyrgiht">© 2018 深圳市中金岭南科技有限公司版权所有</div>
+        </section>
+    {% endblock %}
+        
+    {% block javascripts %}{% endblock %}
+    </body>
+</html>

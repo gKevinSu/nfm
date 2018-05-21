@@ -1,0 +1,8 @@
+@media screen and (max-width: 964px) {
+	.footer-linkbox > div {
+		width: 45%;
+	}
+}
+.copyright {
+	margin: 15px auto;
+}
