@@ -19,7 +19,7 @@ namespace Component
 '));
 
          array_push($this->catalog,
-            array('name'=>'国务院办公厅关于开展工程建设项目审批制度改革试点的通知',
+            array('name'=>'深圳市生产经营单位安全生产主体责任规定',
                'date'=>'2018-5-17',
                'link'=>'http://www.chinalaw.gov.cn/art/2018/5/17/art_15_208227.html',
                'keywords'=>'企业安全生产主体责任',
