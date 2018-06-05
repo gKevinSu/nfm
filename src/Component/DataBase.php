@@ -10,6 +10,15 @@ namespace Component
 			$this -> catalog = array();
 
          array_push($this->catalog,
+            array('name'=>'坪山区环境保护和水务局关于发布2018年第二季度行政执法指导案例的公告',
+               'date'=>'2018-6-4',
+               'link'=>'http://www.szpsq.gov.cn/xxgk/jt/tzgg/201806/t20180604_12070822.htm',
+               'keywords'=>'建设项目水土保持 环保 执法案例',
+               'from'=>'坪山区环境保护和水务局',
+               'context'=>'坪山区环境保护和水务局汇编2018年二季度行政执法案例，内容涉及建设项目审批、企业生产经营环节。
+'));
+
+         array_push($this->catalog,
             array('name'=>'市经贸信息委关于受理2018年绿色系统集成项目申报的紧急通知',
                'date'=>'2018-5-28',
                'link'=>'http://www.szjmxxw.gov.cn/xxgk/xxgkml/qt/tzgg/201805/t20180528_12002168.htm',
