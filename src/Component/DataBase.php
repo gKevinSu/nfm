@@ -10,6 +10,15 @@ namespace Component
 			$this -> catalog = array();
 
          array_push($this->catalog,
+            array('name'=>'市经贸信息委关于印发《市经贸信息委专项资金事后资助项目专项审计原则和标准》的通知',
+               'date'=>'2018-6-20',
+               'link'=>'http://www.szjmxxw.gov.cn/xxgk/xxgkml/qt/tzgg/201806/t20180620_12204056.htm',
+               'keywords'=>'专项资金 审计原则',
+               'from'=>'深圳市经济贸易和信息化委员会',
+               'context'=>'为进一步规范专项资金事后资助项目专项审计工作，提高工作效率，我委制定《市经贸信息委专项资金事后资助项目专项审计原则和标准》（见附件，以下简称“通用类审计标准”），现予以印发。
+'));
+
+         array_push($this->catalog,
             array('name'=>'市经贸信息委关于延长2019年新兴产业（新材料、绿色低碳、生物医药、高端装备制造业）扶持计划受理期限的通知',
                'date'=>'2018-6-13',
                'link'=>'http://www.szjmxxw.gov.cn/xxgk/xxgkml/qt/tzgg/201806/t20180613_12123430.htm',
